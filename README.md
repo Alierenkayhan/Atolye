@@ -7,7 +7,7 @@
 [![GitHub issues:](https://img.shields.io/github/issues/Alierenkayhan/Atolye)](https://img.shields.io/github/issues/Alierenkayhan/Atolye)
 [![GitHub forks:](https://img.shields.io/github/forks/Alierenkayhan/Atolye)](https://img.shields.io/github/forks/Alierenkayhan/Atolye)
 [![GitHub stars:](https://img.shields.io/github/stars/Alierenkayhan/Atolye)](https://img.shields.io/github/stars/Alierenkayhan/Atolye)
-[![GitHub license:](https://img.shields.io/github/license/Alierenkayhan/Atolye)](https://img.shields.io/github/license/Alierenkayhan/Atolye)
+[![GitHub license](https://img.shields.io/github/license/Alierenkayhan/Atolye)](https://github.com/Alierenkayhan/Atolye/blob/main/LICENSE)    
 ![GitHub all releases](https://img.shields.io/github/downloads/Alierenkayhan/Atolye/total)
 ![GitHub last commit](https://img.shields.io/github/last-commit/Alierenkayhan/Atolye)
 ![Sourcegraph for Repo Reference Count](https://img.shields.io/sourcegraph/rrc/Atolye)
