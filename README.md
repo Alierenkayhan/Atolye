@@ -4,6 +4,7 @@
 
 <div align="center">
     
+![GitHub watchers](https://img.shields.io/github/watchers/Alierenkayhan/Atolye?style=social)   
 [![GitHub issues:](https://img.shields.io/github/issues/Alierenkayhan/Atolye)](https://img.shields.io/github/issues/Alierenkayhan/Atolye)
 [![GitHub forks:](https://img.shields.io/github/forks/Alierenkayhan/Atolye)](https://img.shields.io/github/forks/Alierenkayhan/Atolye)
 [![GitHub stars:](https://img.shields.io/github/stars/Alierenkayhan/Atolye)](https://img.shields.io/github/stars/Alierenkayhan/Atolye)
@@ -11,7 +12,6 @@
 ![GitHub all releases](https://img.shields.io/github/downloads/Alierenkayhan/Atolye/total)
 ![GitHub last commit](https://img.shields.io/github/last-commit/Alierenkayhan/Atolye)
 ![Sourcegraph for Repo Reference Count](https://img.shields.io/sourcegraph/rrc/Atolye)
-![GitHub watchers](https://img.shields.io/github/watchers/Alierenkayhan/Atolye?style=social)
 ![GitHub repo size](https://img.shields.io/github/repo-size/Alierenkayhan/Atolye)
     
 </div>
