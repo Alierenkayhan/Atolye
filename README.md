@@ -1,4 +1,4 @@
-<img align="left" src="https://github.com/Alierenkayhan/Alierenkayhan.github.io/blob/master/img/unity.jpg" alt="Alierenkayhan" width ="1100" height = "400" /></p>
+<img align="left" src="https://github.com/Alierenkayhan/Alierenkayhan.github.io/blob/master/img/unity.jpg" alt="Alierenkayhan" width ="100%" height = "auto"/></p>
     
 # Atolye
 
@@ -50,12 +50,12 @@ You can play it from this website = https://alierenkayhan.itch.io/atlye
   1-Screenshots of Atölye 
   <table> 
     <tr>
-        <td>  <img align="left" src="screenshots/Atolyess1.jpg" alt="Atölye" width ="500" height = "300" /></p></td>
-        <td>  <img align="left" src="screenshots/Atolyess2.jpg" alt="Atölye " width ="500" height = "300" /></p></td>
+        <td>  <img align="left" src="screenshots/Atolyess1.jpg" alt="Atölye" width ="100%" height = "auto" /></p></td>
+        <td>  <img align="left" src="screenshots/Atolyess2.jpg" alt="Atölye "width ="100%" height = "auto" /></p></td>
     </tr>
     <tr>
-        <td>  <img align="left" src="screenshots/Atolyess3.jpg" alt="Atölye" width ="500" height = "300" /></p></td>
-        <td>  <img align="left" src="screenshots/Atolyess4.jpg" alt="Atölye" width ="500" height = "300" /></p></td>
+        <td>  <img align="left" src="screenshots/Atolyess3.jpg" alt="Atölye" width ="100%" height = "auto" /></p></td>
+        <td>  <img align="left" src="screenshots/Atolyess4.jpg" alt="Atölye" width ="100%" height = "auto" /></p></td>
     </tr>
    </table>
 
