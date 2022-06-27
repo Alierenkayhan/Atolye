@@ -4,15 +4,34 @@
 
 <div align="center">
     
+
 ![GitHub watchers](https://img.shields.io/github/watchers/Alierenkayhan/Atolye?style=social)   
+![GitHub forks](https://img.shields.io/github/forks/Alierenkayhan/Atolye?style=social)
+![GitHub Repo stars](https://img.shields.io/github/stars/Alierenkayhan/Atolye?style=social)
+ 
+[![GitHub license](https://img.shields.io/github/license/Alierenkayhan/Atolye)](https://github.com/Alierenkayhan/Atolye/blob/main/LICENSE)    
+ 
 [![GitHub issues:](https://img.shields.io/github/issues/Alierenkayhan/Atolye)](https://img.shields.io/github/issues/Alierenkayhan/Atolye)
+![GitHub closed issues](https://img.shields.io/github/issues-closed-raw/Alierenkayhan/Atolye)
+![GitHub pull requests](https://img.shields.io/github/issues-pr/Alierenkayhan/Atolye)
+![GitHub closed pull requests](https://img.shields.io/github/issues-pr-closed-raw/Alierenkayhan/Atolye) 
 [![GitHub forks:](https://img.shields.io/github/forks/Alierenkayhan/Atolye)](https://img.shields.io/github/forks/Alierenkayhan/Atolye)
 [![GitHub stars:](https://img.shields.io/github/stars/Alierenkayhan/Atolye)](https://img.shields.io/github/stars/Alierenkayhan/Atolye)
-[![GitHub license](https://img.shields.io/github/license/Alierenkayhan/Atolye)](https://github.com/Alierenkayhan/Atolye/blob/main/LICENSE)    
-![GitHub all releases](https://img.shields.io/github/downloads/Alierenkayhan/Atolye/total)
+![GitHub search hit counter](https://img.shields.io/github/search/Alierenkayhan/Atolye/goto)
+
+![GitHub commit activity](https://img.shields.io/github/commit-activity/m/Alierenkayhan/Atolye)
 ![GitHub last commit](https://img.shields.io/github/last-commit/Alierenkayhan/Atolye)
 ![Sourcegraph for Repo Reference Count](https://img.shields.io/sourcegraph/rrc/Atolye)
 ![GitHub repo size](https://img.shields.io/github/repo-size/Alierenkayhan/Atolye)
+![GitHub top language](https://img.shields.io/github/languages/top/Alierenkayhan/Atolye) 
+
+![GitHub all releases](https://img.shields.io/github/downloads/Alierenkayhan/Atolye/total)
+ <a href="https://github.com/Alierenkayhan/Atolye/archive/refs/heads/main.zip">
+<img src="https://img.shields.io/badge/Download-Project-blue" /></a>
+<a href="https://alierenkayhan.itch.io/atlye">
+![Website](https://img.shields.io/website?down_color=lightgrey&down_message=offline&up_color=blue&up_message=online&url=https%3A%2F%2Falierenkayhan.itch.io%2Fatlye)
+</a>
+
     
 </div>
 
