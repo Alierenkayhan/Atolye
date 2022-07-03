@@ -49,6 +49,7 @@ You can play it from this website = https://alierenkayhan.itch.io/atlye
 * [Prerequisites](#Prerequisites)
 * [Features](#Features)
 * [Screenshots](#Screenshots)
+* [Game](#Game)
 * [Setup](#Setup)
 * [Lisans](#Lisans)
 * [Feedback](#Feedback)
@@ -77,6 +78,9 @@ You can play it from this website = https://alierenkayhan.itch.io/atlye
         <td>  <img align="left" src="screenshots/Atolyess4.jpg" alt="Atölye" width ="100%" height = "auto" /></p></td>
     </tr>
    </table>
+
+## Game
+[![Available on itch.io](http://jessemillar.github.io/available-on-itchio-badge/badge-bw.png)](https://alierenkayhan.itch.io/atlye)
 
 ## Setup  
   -Go to the link.<br/>
