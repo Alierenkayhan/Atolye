@@ -35,12 +35,11 @@
     
 </div>
 
-The workshop game is an educational game that will help students who have problems with Turkey MEB 6th grade Mathematics Angles and Area Measurement.
-
-You can play it from this website = https://alierenkayhan.itch.io/atlye
+- Develop a 2D instructional game in Unity
+- Teach Grade 6 Mathematics Angles and Area Measurement.
+- Published on itch.io
+- You can play it from this website = https://alierenkayhan.itch.io/atlye
  
- 
-
 
 ## Table of Contents
 
