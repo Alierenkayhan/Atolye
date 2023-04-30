@@ -14,6 +14,8 @@ public class drag : MonoBehaviour
     [SerializeField] GameObject Activite11;
     [SerializeField] GameObject Activite1DenemeYeri11;
 
+    public GameObject[] pages;
+
     [SerializeField] GameObject Activite12;
     [SerializeField] GameObject Activite1DenemeYeri12;
 

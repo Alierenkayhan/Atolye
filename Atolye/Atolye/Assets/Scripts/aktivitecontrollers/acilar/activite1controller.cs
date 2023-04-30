@@ -13,23 +13,21 @@ public class activite1controller : MonoBehaviour
     [SerializeField] GameObject helppart;
     [SerializeField] GameObject bookpart;
     [SerializeField] GameObject adminbutton;
+    [SerializeField] GameObject haritapart;
 
     [SerializeField] GameObject ödül;
 
     [SerializeField] GameObject ActiviteGiris;
     [SerializeField] GameObject Activite1;
+    [SerializeField] GameObject Activite11;
     [SerializeField] GameObject Activite12;
-    [SerializeField] GameObject Activite1son;
-    public GameObject Activite13;
-    public GameObject Activite14;
-    public GameObject Activite21;
-    public GameObject Activite22;
-    public GameObject Activite23;
-    public GameObject Activite24;
+    public GameObject Activite121;
+    public GameObject Activite1son;
 
+
+    public GameObject scoreparent;
 
     int clickforadminbutton = 0;
-    bool activitetime = true;
     public void OpenAciolcerPart()
     {
         aciolcerpart.gameObject.SetActive(true);
@@ -42,7 +40,14 @@ public class activite1controller : MonoBehaviour
     {
         menupart.gameObject.SetActive(true);
     }
-
+    public void OpenHarita()
+    {
+        haritapart.SetActive(true);
+    }
+    public void CloseHarita()
+    {
+        haritapart.SetActive(false);
+    }
     public void CloseHelpPart()
     {
         helppart.gameObject.SetActive(false);
@@ -51,20 +56,12 @@ public class activite1controller : MonoBehaviour
     {
         menupart.gameObject.SetActive(false);
     }
-
-    public void CloseBookPart()
-    {
-        bookpart.SetActive(false);
-    }
-
     public void Book()
     {
-        if (activitetime)
-        {
-            bookpart.SetActive(true);
-         }
+        bookpart.gameObject.SetActive(!bookpart.gameObject.activeSelf);
+        scoreparent.gameObject.SetActive(!scoreparent.gameObject.activeSelf);
     }
-
+     
     public void ShowTheÖdül()
     {
         Activite12.SetActive(false);
@@ -105,14 +102,24 @@ public class activite1controller : MonoBehaviour
         if (clickforadminbutton == 2)
         {
             Activite1.SetActive(false);
-            Activite12.SetActive(true);
+            Activite11.SetActive(true);
         }
         if (clickforadminbutton == 3)
         {
-            Activite12.SetActive(false);
-            Activite1son.SetActive(true);
+            Activite11.SetActive(false);
+            Activite12.SetActive(true);
         }
         if (clickforadminbutton == 4)
+        {
+            Activite12.SetActive(false);
+            Activite121.SetActive(true);
+        }
+        if (clickforadminbutton == 5)
+        {
+            Activite121.SetActive(false);
+            Activite1son.SetActive(true);
+        }
+        if (clickforadminbutton == 6)
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
 
@@ -135,11 +142,21 @@ public class activite1controller : MonoBehaviour
         if (clickforadminbutton == 1)
         {
             Activite1.SetActive(true);
-            Activite12.SetActive(false);
+            Activite11.SetActive(false);
         }
         if (clickforadminbutton == 2)
         {
+            Activite11.SetActive(true);
+            Activite12.SetActive(false);
+        }
+        if (clickforadminbutton == 3)
+        {
             Activite12.SetActive(true);
+            Activite121.SetActive(false);
+        }
+        if (clickforadminbutton == 4)
+        {
+            Activite121.SetActive(true);
             Activite1son.SetActive(false);
         }
     }

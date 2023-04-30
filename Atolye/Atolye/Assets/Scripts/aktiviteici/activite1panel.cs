@@ -1,4 +1,4 @@
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -45,6 +45,17 @@ public class activite1panel : MonoBehaviour
 
     [SerializeField] GameObject panelisik;
     [SerializeField] GameObject panelisik2;
+
+    [Header("Yeni")]
+    public GameObject wood;
+    [SerializeField] GameObject wood2;
+    [SerializeField] GameObject activiteto11;
+    [SerializeField] GameObject activiteto1;
+    [SerializeField] GameObject btn;
+
+    [Header("Activite1.1 açı gösterimi")]
+    public GameObject gösterim;
+
     void FixedUpdate()
     {
 
@@ -90,7 +101,27 @@ public class activite1panel : MonoBehaviour
             panelisik.SetActive(false);
         }
     }
-    
+    private void Start()
+    {
+        btn.SetActive(false);
+        gösterim.gameObject.GetComponent<Animator>().enabled = false;
+    }
+    private void Update()
+    {
+        if (wood.gameObject.GetComponent<dragforwood>().iscorrectmatch == true && wood2.gameObject.GetComponent<dragforwood>().iscorrectmatch == true)
+        {
+            btn.SetActive(true);
+         }
+        else
+        {
+            btn.SetActive(false);
+
+        }
+    }
+    public void acıgösterimi()
+    {
+        gösterim.gameObject.GetComponent<Animator>().enabled = true;
+    }
     public void TekrarDene()
     {
         feedback.SetActive(false);
@@ -133,6 +164,26 @@ public class activite1panel : MonoBehaviour
         }  
     }
 
+    public void activite1to2()
+    {
+        try
+        {
+            if (wood.gameObject.GetComponent<dragforwood>().iscorrectmatch == true && wood2.gameObject.GetComponent<dragforwood>().iscorrectmatch == true)
+            {
+                activiteto1.SetActive(false);
+                activiteto11.SetActive(true);
+            }
+            else
+            {
+                activite1.SetActive(true);
+            }
+        }
+        catch (System.Exception)
+        {
+
+            throw;
+        }
+    }
     private IEnumerator Wait(float waitTime)
     {
        yield return new WaitForSeconds(waitTime);

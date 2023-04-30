@@ -12,6 +12,9 @@ public class activite2controller : MonoBehaviour
     [SerializeField] GameObject aciolcerpart;
     [SerializeField] GameObject helppart;
     [SerializeField] GameObject bookpart;
+    [SerializeField] GameObject scoreparent;
+    [SerializeField] GameObject archieve;
+    [SerializeField] GameObject harita;
 
     [SerializeField] GameObject rightarrow;
     [SerializeField] GameObject rightarrow2;
@@ -65,8 +68,27 @@ public class activite2controller : MonoBehaviour
 
     public void Book()
     {
-        bookpart.SetActive(true);
+        bookpart.gameObject.SetActive(!bookpart.gameObject.activeSelf);
+        scoreparent.gameObject.SetActive(!scoreparent.gameObject.activeSelf);
     }
+    public void Archieve()
+    {
+        archieve.gameObject.SetActive(true);
+    }
+    public void CloseArchieve()
+    {
+        archieve.gameObject.SetActive(false);
+    }
+
+    public void Harita()
+    {
+        harita.gameObject.SetActive(true);
+    }
+    public void CloseHarita()
+    {
+        harita.gameObject.SetActive(false);
+    }
+
     public void StartTheAcitivity12()
     {
         Activite1.SetActive(false);

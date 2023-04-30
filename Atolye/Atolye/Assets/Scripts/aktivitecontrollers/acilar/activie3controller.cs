@@ -11,6 +11,9 @@ public class activie3controller : MonoBehaviour
     [SerializeField] GameObject aciolcerpart;
     [SerializeField] GameObject helppart;
     [SerializeField] GameObject bookpart;
+    [SerializeField] GameObject scoreparent;
+    [SerializeField] GameObject archieve;
+    [SerializeField] GameObject harita;
 
     [SerializeField] GameObject rightarrow;
     [SerializeField] GameObject rightarrow1;
@@ -23,10 +26,12 @@ public class activie3controller : MonoBehaviour
     [SerializeField] GameObject Activite122;
     [SerializeField] GameObject Activite21;
     [SerializeField] GameObject Activite22;
+    [SerializeField] GameObject Activite212;
     [SerializeField] GameObject Activite221;
     [SerializeField] GameObject Activite31;
     [SerializeField] GameObject Activite32;
     [SerializeField] GameObject Activite322;
+    [SerializeField] GameObject Activite3222;
     [SerializeField] GameObject ActiviteSon;
     [SerializeField] GameObject ödül;
 
@@ -61,7 +66,8 @@ public class activie3controller : MonoBehaviour
 
     public void Book()
     {
-        bookpart.SetActive(true);
+        bookpart.gameObject.SetActive(!bookpart.gameObject.activeSelf);
+        scoreparent.gameObject.SetActive(!scoreparent.gameObject.activeSelf);
     }
 
     public void StartTheAcitivity1()
@@ -87,13 +93,27 @@ public class activie3controller : MonoBehaviour
         Activite21.SetActive(false);
         Activite22.SetActive(true);
     }
+    public void Activite222Begin()
+    {
+        Activite22.SetActive(false);
+        Activite212.SetActive(true);
+    }
 
     public void Activite32Begin()
     {
         Activite31.SetActive(false);
         Activite32.SetActive(true);
     }
-
+    public void Activite322Begin()
+    {
+        Activite32.SetActive(false);
+        Activite322.SetActive(true);
+    }
+    public void Activite3222Begin()
+    {
+        Activite322.SetActive(false);
+        Activite3222.SetActive(true);
+    }
     public void ShowÖdül()
     {
         ödül.SetActive(true);
@@ -168,7 +188,23 @@ public class activie3controller : MonoBehaviour
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         }
     }
+    public void Archieve()
+    {
+        archieve.gameObject.SetActive(true);
+    }
+    public void CloseArchieve()
+    {
+        archieve.gameObject.SetActive(false);
+    }
 
+    public void Harita()
+    {
+        harita.gameObject.SetActive(true);
+    }
+    public void CloseHarita()
+    {
+        harita.gameObject.SetActive(false);
+    }
     public void gobacktheactiviteAdminButton()
     {
         clickforadminbutton--;
