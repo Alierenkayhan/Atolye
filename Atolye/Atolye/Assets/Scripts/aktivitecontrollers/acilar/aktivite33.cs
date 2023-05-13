@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using Unity.VisualScripting;
+
 public class aktivite33 : MonoBehaviour
 {
     [SerializeField] GameObject yesilodun;
@@ -59,12 +61,14 @@ public class aktivite33 : MonoBehaviour
         {
             okaybutton.SetActive(true);
             kontroletbutton.SetActive(false);
+            yesilodundegeryeri.interactable = false;
         }
         else
         {
             okaybutton.SetActive(false);
             kontroletbutton.SetActive(true);
             feedbackscreen.SetActive(true);
+            yesilodundegeryeri.interactable = true;
         }
     }
     public void closefeedbackscreen()

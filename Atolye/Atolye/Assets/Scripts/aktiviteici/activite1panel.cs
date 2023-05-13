@@ -69,7 +69,7 @@ public class activite1panel : MonoBehaviour
 
         //-----------------------------------------------------------active1.2-----------------------------------
         deger22 = ahsapoymabicagi2.transform.rotation.eulerAngles.z;
-        deger222= 180 - ahsapoymabicagi2.transform.rotation.eulerAngles.z;
+        deger222 = 180 - ahsapoymabicagi2.transform.rotation.eulerAngles.z;
 
         ahsapoymabicagidegeryeri22.text = deger22.ToString("n0");
         ahsapoymabicagidegeryeri222.text = deger22.ToString("n0");
@@ -88,7 +88,7 @@ public class activite1panel : MonoBehaviour
         {
             panelisik2.SetActive(true);
         }
-        else if(ahsapoymabicagidegeryeri22.text != hedefaci2 || helpmenuactive == true)
+        else if (ahsapoymabicagidegeryeri22.text != hedefaci2 || helpmenuactive == true)
         {
             panelisik2.SetActive(false);
         }
@@ -111,7 +111,7 @@ public class activite1panel : MonoBehaviour
         if (wood.gameObject.GetComponent<dragforwood>().iscorrectmatch == true && wood2.gameObject.GetComponent<dragforwood>().iscorrectmatch == true)
         {
             btn.SetActive(true);
-         }
+        }
         else
         {
             btn.SetActive(false);
@@ -138,7 +138,7 @@ public class activite1panel : MonoBehaviour
     }
     public void vurma()
     {
-         
+
         try
         {
             if (ahsapoymabicagidegeryeri.text != hedefaci1)
@@ -161,7 +161,7 @@ public class activite1panel : MonoBehaviour
         {
 
             throw;
-        }  
+        }
     }
 
     public void activite1to2()
@@ -184,11 +184,17 @@ public class activite1panel : MonoBehaviour
             throw;
         }
     }
+    public void activite1tWo2()
+    {
+        activite1.SetActive(true);
+        activiteto11.SetActive(false);
+    }
+
     private IEnumerator Wait(float waitTime)
     {
-       yield return new WaitForSeconds(waitTime);
-       feedback.SetActive(true);
-       cekic.SetActive(false);
+        yield return new WaitForSeconds(waitTime);
+        feedback.SetActive(true);
+        cekic.SetActive(false);
     }
     private IEnumerator Wait2(float waitTime)
     {
@@ -235,6 +241,6 @@ public class activite1panel : MonoBehaviour
         yield return new WaitForSeconds(waitTime);
         activite12.SetActive(false);
         activiteson.SetActive(true);
-       
+
     }
 }

@@ -17,7 +17,7 @@ public class end : MonoBehaviour
     }
 
     [SerializeField] TextMeshProUGUI scoretext;
-    [SerializeField] TextMeshProUGUI isimtext;
+    public TextMeshProUGUI isimtext;
     private void FixedUpdate()
     {
         scoretext.text = scoring.totalScore.ToString();

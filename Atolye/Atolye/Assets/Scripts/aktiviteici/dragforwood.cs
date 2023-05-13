@@ -46,7 +46,8 @@ public class dragforwood : MonoBehaviour
         if (iscorrectmatch)
         {
             Debug.Log("This match is correct.");
-
+            this.gameObject.GetComponent<PolygonCollider2D>().enabled = false;
+            this.gameObject.GetComponent<dragforwood>().iscorrectmatch = true;
         }
         else
         {
